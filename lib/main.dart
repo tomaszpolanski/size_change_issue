@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
               TEXT('FLUTTER_RUNNER_WIN32_WINDOW'),
               nullptr,
             );
-            // Working: This code is working for Flutter 1.25.0-8.1.pre
+            // Working: This code is working for Flutter 1.26.0-12.0.pre
             // Not working: It crashes the app for 1.26.0-17.8.pre
             if (window == 0) {
               throw Exception('Cannot find flutter window');
